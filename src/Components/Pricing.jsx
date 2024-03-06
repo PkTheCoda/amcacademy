@@ -6,7 +6,7 @@ const Pricing = () => {
         <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24">
             <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
                 <h2 class="mb-4 six-title font-semibold tracking-tight text-gray-900 dark:text-white">
-                    Let's get you to <span className="text1 block underline pt-2">The National Level</span>
+                    Let's get you to <span className="text1 block underline pt-2">The National Level!</span>
                 </h2>
                 <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">
                     Here at <span className="text1">AMC academy</span>, our mission is to help you achieve your dreams.
