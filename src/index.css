@@ -42,4 +42,24 @@
   .transition300scale {
     @apply transition transform duration-300 hover:scale-[1.03]
   }
+
+  .main-gradient {
+    @apply inline bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#6D3AE9] via-indigo-500 to-[#A988F9] bg-clip-text text-transparent;
+  }
+
+  .text1 {
+    @apply text-[#6D3AE9]
+  }
+
+  .text2 {
+    @apply text-[#A988F9]
+  }
+
+  .bg1 {
+    @apply bg-[#6D3AE9]
+  }
+
+  .bg2 {
+    @apply bg-[#A988F9]
+  }
 }
