@@ -2,6 +2,7 @@ import { Dialog } from '@headlessui/react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { HiOutlineXMark } from "react-icons/hi2";
 import { useState } from 'react';
+import logo from '../Images/amclogo.png'
 
 
 const navigation = [
@@ -35,7 +36,7 @@ export default function Navbar() {
                 <span className="sr-only">Your Company</span>
                 <img
                     className="w-20"
-                    src="https://www.svgrepo.com/show/489282/brand.svg"
+                    src={logo}
                     alt=""
                   />
               </a>

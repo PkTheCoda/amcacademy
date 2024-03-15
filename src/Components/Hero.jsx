@@ -6,7 +6,7 @@ import mathpic from '../Images/mathpic.png'
 const Hero = () => {
   return (
     <>
-      <div className="font-quicksand bg-cover bg-center py-20 flex relative lg:flex-row flex-col gap-y-10 bg-stone-50"
+      <div className="font-quicksand bg-cover bg-center py-28 flex relative lg:flex-row flex-col gap-y-10 bg-stone-50"
       style={{ backgroundImage: `url(${mathpic})` }}
       >
           <div className="w-full flex justify-center items-center lg:order-1 order-2">
