@@ -2,11 +2,11 @@ import React from 'react'
 
 const Cta = () => {
   return (
-        <div className='max-w-6xl mx-auto my-20 flex flex-col gap-y-10 font-fig'>
+        <div className='max-w-6xl mx-auto my-20 lg:px-10 px-4 flex flex-col gap-y-10 font-fig'>
 
             <div className='flex flex-col gap-y-2 items-center'>
                 <h1 className='font-semibold five-title'>
-                    <span className="text1">F</span>requently <span className="text1">A</span>sked <span className="text1">Q</span>uestions
+                    <span className="main-gradient">F</span>requently <span className="main-gradient">A</span>sked <span className="main-gradient">Q</span>uestions
                 </h1>
             </div>
 

@@ -5,8 +5,7 @@ import Logocloud from '../Components/Logocloud'
 import Statsrank from '../Components/Statsrank'
 import Pricing from '../Components/Pricing'
 import Team from '../Components/Team'
-import Cta from '../Components/Cta'
-import FAQ from '../Components/FAQ'
+import Questions from '../Components/Questions'
 
 const Homepage = () => {
   return (
@@ -19,8 +18,7 @@ const Homepage = () => {
         </div>
         <Pricing />
         <Logocloud />
-        <FAQ />
-        <Cta />
+        <Questions />
     </>
   )
 }

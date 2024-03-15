@@ -47,7 +47,7 @@ export default function Navbar() {
                 onClick={() => setMobileMenuOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>
-                <RxHamburgerMenu className="h-6 w-6 text1 hover:text-white" aria-hidden="true" />
+                <RxHamburgerMenu className="h-6 w-6 main-gradient hover:text-white" aria-hidden="true" />
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
@@ -99,7 +99,7 @@ export default function Navbar() {
                       <a
                         key={item.name}
                         href={item.href}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 text1 hover:bg-gray-50 transition transform duration-300"
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base  leading-7 main-gradient hover:bg-gray-50 transition transform duration-300"
                         onClick={(event) => handleNavigationClick(event, item.href)}
                       >
                         {item.name}
@@ -109,7 +109,7 @@ export default function Navbar() {
                   <div className="py-6">
                     <a
                       href="/contact"
-                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base text1 leading-7 hover:bg-slate-50 transition transform duration-300"
+                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base main-gradient leading-7 hover:bg-slate-50 transition transform duration-300"
                     >
                       Contact
                     </a>

@@ -15,10 +15,10 @@ const Footer = () => {
 
         <div class="flex justify-center space-x-5">
             <a href="https://www.instagram.com/blendstem/" target="_blank" rel="noopener noreferrer" className='p-3 rounded-full bg-white transition300scale'>
-                <FaInstagram className='w-6 h-6 text1'/>
+                <FaInstagram className='w-6 h-6 main-gradient'/>
             </a>
             <a href="https://www.linkedin.com/company/blendstem/" target="_blank" rel="noopener noreferrer" className='p-3 rounded-full bg-white transition300scale'>
-                <FaLinkedin className='w-6 h-6 text1'/>
+                <FaLinkedin className='w-6 h-6 main-gradient'/>
             </a>
         </div>
         <p class="text-center text-white font-medium">&copy; 2024 AMC Academy Ltd. All rights reservered.</p>

@@ -5,7 +5,7 @@ const Logocloud = () => {
     <div class="py-24 font-outfit bg-slate-50">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div className='flex flex-col gap-y-3 items-center'>
-            <h2 class="text-center four-title font-semibold leading-8 text-gray-900">Our <span className="text1">Trusted Sponsors</span></h2>
+            <h2 class="text-center four-title font-semibold leading-8 text-gray-900">Our <span className="main-gradient">Trusted Sponsors</span></h2>
             <p className='paragraph-responsive'>
             Our esteemed partners and sponsors fuel BlendSTEM's mission to empower K-12 education
             </p>

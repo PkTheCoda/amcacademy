@@ -44,22 +44,22 @@
   }
 
   .main-gradient {
-    @apply inline bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#6D3AE9] via-indigo-500 to-[#A988F9] bg-clip-text text-transparent;
+    @apply text-blue-900;
   }
 
   .text1 {
-    @apply text-[#6D3AE9]
+    @apply text-slate-600
   }
 
   .text2 {
-    @apply text-[#A988F9]
+    @apply text-slate-800
   }
 
   .bg1 {
-    @apply bg-[#6D3AE9]
+    @apply bg-blue-900
   }
 
   .bg2 {
-    @apply bg-[#A988F9]
+    @apply bg-blue-900
   }
 }
