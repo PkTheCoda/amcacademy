@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Book A Session', href: '/book' },
+  { name: 'Curriculum', href: '#' },
 
 ]
 
@@ -20,16 +21,16 @@ export default function Navbar() {
       <div className="w-full z-50 top-0 bg1 opacity-90 flex items-center relative">
 
         <header className="w-full z-50">
-            {/* <div className='bg-amber-700 text-lg p-2 font-outfit flex gap-2 justify-center lg:flex-row flex-col items-center'>
+            <div className='bg-[#141f50] text-lg p-2 font-outfit flex gap-2 justify-center lg:flex-row flex-col items-center'>
                 <div className='text-white text-center'>
-                Score1600 is offering <span className="underline">a free session</span> to all newcomers! You don't pay until after the first session!
+                  AMC Academy is offering a free Evaluation Session to all new members. 
                 </div>
                 <a 
                 className="text-sky-100 underline" 
                 target='_blank'
-                href='/book'>Signup
+                href='/book'>Join Us
                 </a>
-            </div> */}
+            </div>
           <nav className="flex rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <a href="/" className="-m-1.5">
