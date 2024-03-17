@@ -3,12 +3,14 @@ import progress1 from '../Images/progress1.svg'
 import progress2 from '../Images/progress2.svg'
 import { IoCheckmark } from "react-icons/io5";
 import { IoIosDocument } from "react-icons/io";
+import { GiProgression } from "react-icons/gi";
 
 
 const Featuresfirst = () => {
   return (
     <>
-        <div class="relative flex overflow-x-hidden font-quicksand">
+        {/* Marquee: */}
+        {/* <div class="relative flex overflow-x-hidden font-quicksand">
             <div class="py-12 animate-marquee whitespace-nowrap font-bold text-blue-950">
                 <span class="five-title mx-4 px-4 p-2 bg-blue-300 rounded-lg">AMC Competition</span>
                 <span class="five-title mx-4 px-4 p-2 bg-blue-300 rounded-lg">Tutoring</span>
@@ -30,9 +32,9 @@ const Featuresfirst = () => {
                 <span class="five-title mx-4 px-4 p-2 bg-blue-300 rounded-lg">Contribute</span>
                 <span class="five-title mx-4 px-4 p-2 bg-blue-300 rounded-lg">Contribute</span>
             </div>
-        </div>
+        </div> */}
 
-        <div className="w-full pb-20 pt-14 h-max items-center flex flex-col gap-y-20 px-5 lg:px-32 font-quicksand">
+        <div className="w-full pb-20 pt-28 h-max items-center flex flex-col gap-y-20 px-5 lg:px-32 font-quicksand">
             <div className='flex flex-col gap-y-3 items-center font-quicksand tracking-tight font-medium'>
                 <h2 className="six-title text-center">We Know <span className="main-gradient underline font-semibold">The Competitive Math Scene</span></h2>
                 <p className='paragraph-responsive  text-xl px-4 md:px-20 lg:px-0 lg:w-2/3 text-center'>
@@ -102,7 +104,7 @@ const Featuresfirst = () => {
 
                         <div className='flex flex-col gap-y-3 font-quicksand'>
                             <div className='p-2 bg-slate-200 text-slate-800 border-2 border-slate-200 w-max rounded-xl'>
-                                <IoIosDocument className='w-10 h-auto'/>
+                                <GiProgression className='w-10 h-auto'/>
                             </div>
                             <div className='font-semibold five-title h-max tracking-tight'>
                                 Detailed & Evaluative <span className="block main-gradient">Progress Tracking</span>
