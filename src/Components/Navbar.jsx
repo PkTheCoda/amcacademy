@@ -18,10 +18,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="w-full z-50 top-0 bg1 opacity-90 flex items-center relative">
-
+      <div className="w-full z-50 top-0 bg1 opacity-90 flex items-center relative font-quicksand">
         <header className="w-full z-50">
-            <div className='bg-[#141f50] text-lg p-2 font-outfit flex gap-2 justify-center lg:flex-row flex-col items-center'>
+            <div className='bg-[#141f50] text-lg p-2 flex gap-2 justify-center lg:flex-row flex-col items-center'>
                 <div className='text-white text-center'>
                   AMC Academy is offering a free Evaluation Session to all new members. 
                 </div>
@@ -57,7 +56,7 @@ export default function Navbar() {
                 <a 
                   key={item.name} 
                   href={item.href} 
-                  className="text-lg leading-6 font-medium text-white font-outfit transition transform hover:scale-110"
+                  className="text-lg leading-6 font-medium text-white transition transform hover:scale-110"
                 >
                   {item.name}
                 </a>
