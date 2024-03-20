@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="font-quicksand bg-cover py-20 bg-center flex relative lg:flex-row flex-col gap-y-10 bg-stone-50"
       // style={{ backgroundImage: `url(${mathpic})` }}
       >
-        <p class="absolute text-lg font-outfit hidden lg:block left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <p class="absolute text-lg font-outfit hidden bottom-10 lg:block left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
           We've sent over <span class="font-semibold underline">20 Students to the National Level</span>
         </p>
 

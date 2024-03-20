@@ -9,7 +9,6 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Pricing', href: '/pricing' },
   { name: 'Book A Session', href: '/book' },
-  { name: 'Curriculum', href: '#' },
 
 ]
 
@@ -64,11 +63,11 @@ export default function Navbar() {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a 
-                href="/contact" 
+                href="https://drive.google.com/file/d/1QnJSYFl7edV53iRGu7FOBR6tkgvdUGJ2/view?usp=sharing" 
                 target='_blank'
-                className="text-lg font-medium text-white leading-6 font-outfit"
+                className="text-lg text-white leading-6 font-outfit"
               >
-                Contact <span aria-hidden="true">&rarr;</span>
+                Curriculum <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
           </nav>
@@ -109,10 +108,11 @@ export default function Navbar() {
                   </div>
                   <div className="py-6">
                     <a
-                      href="/contact"
+                      href="https://drive.google.com/file/d/1QnJSYFl7edV53iRGu7FOBR6tkgvdUGJ2/view?usp=sharing"
+                      target='_blank'
                       className="-mx-3 block rounded-lg px-3 py-2.5 text-base main-gradient leading-7 hover:bg-slate-50 transition transform duration-300"
                     >
-                      Contact
+                      Curriculum
                     </a>
                   </div>
                 </div>

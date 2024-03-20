@@ -1,11 +1,11 @@
 import React from 'react'
 import Hero from '../Components/Hero'
 import Featuresfirst from '../Components/Featuresfirst'
-import Logocloud from '../Components/Logocloud'
 import Statsrank from '../Components/Statsrank'
 import Pricing from '../Components/Pricing'
 import Team from '../Components/Team'
 import Questions from '../Components/Questions'
+import BookHome from '../Components/BookHome'
 
 const Homepage = () => {
   return (
@@ -17,8 +17,9 @@ const Homepage = () => {
           <Team />
         </div>
         <Pricing />
-        <Logocloud />
+        <BookHome />
         <Questions />
+
     </>
   )
 }
