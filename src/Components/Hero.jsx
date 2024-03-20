@@ -19,7 +19,7 @@ const Hero = () => {
                 
                   <div className='flex flex-col gap-y-1'>
                     <p className='text-xl font-fig font-semibold main-gradient'>
-                      The <span className="italic">Better</span> Price
+                      Our Students qualify for AIME in just <span className="font-bold underline text-sky-900">4 months</span>
                     </p>
                     <h1 className='seven-title font-bold tracking-tight'>
                         <span className="main-gradient block">High Quality, Personal</span> Math Tutoring

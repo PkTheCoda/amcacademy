@@ -21,12 +21,13 @@ export default function Navbar() {
         <header className="w-full z-50">
             <div className='bg-[#141f50] text-lg p-2 flex gap-2 justify-center lg:flex-row flex-col items-center'>
                 <div className='text-white text-center'>
-                  AMC Academy is offering a free Evaluation Session to all new members. 
+                  AMC Academy is offering a free Evaluation Session to all new members!
                 </div>
                 <a 
                 className="text-sky-100 underline" 
                 target='_blank'
-                href='/book'>Join Us
+                href='/book'>
+                  Book For Free
                 </a>
             </div>
           <nav className="flex rounded-2xl items-center justify-between p-6 lg:px-8" aria-label="Global">
