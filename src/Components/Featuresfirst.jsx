@@ -132,8 +132,8 @@ const Featuresfirst = () => {
             </div> */}
 
             {/*Second Main feature */}
-            <div className="w-full flex lg:flex-row flex-col items-center gap-8 rounded-xl pb-20">
-                <div className="w-full lg:w-1/2 h-full flex flex-col justify-center it gap-y-6 bg-stone-50 lg:p-10 p-6 rounded-lg lg:pr-0 pr-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 rounded-xl pb-20">
+                <div className="w-full flex flex-col justify-center gap-y-6 bg-stone-50 lg:p-10 p-6 rounded-lg lg:pr-0 pr-8">
 
                     <div className='flex flex-col gap-y-3 font-quicksand'>
                         <div className='p-2 bg-slate-200 text-slate-800 border-2 border-slate-200 w-max rounded-xl'>
@@ -171,7 +171,7 @@ const Featuresfirst = () => {
 
                 </div>
 
-                <div className="w-full lg:w-1/2 h-full flex flex-col justify-center gap-y-6 bg-stone-50 lg:p-10 p-6 rounded-lg pl-8">
+                <div className="w-full flex flex-col justify-center gap-y-6 bg-stone-50 lg:p-10 p-6 rounded-lg pl-8">
 
                     <div className='flex flex-col gap-y-3 font-quicksand'>
                         <div className='p-2 bg-slate-200 text-slate-800 border-2 border-slate-200 w-max rounded-xl'>
