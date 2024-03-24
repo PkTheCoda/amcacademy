@@ -38,7 +38,7 @@ const Featuresfirst = () => {
 
         <div className="w-full pb-20 pt-28 h-max items-center flex flex-col gap-y-8 px-5 lg:px-32 font-quicksand">
             <div className='flex flex-col gap-y-3 items-center font-quicksand tracking-tight font-medium'>
-                <h2 className="six-title text-center">We Know <span className="main-gradient underline font-semibold">The Competitive Math Scene</span></h2>
+                <h2 className="six-title text-center">We Know <span className="main-gradient max-[700px]:block underline font-semibold">The Competitive Math Scene</span></h2>
                 <p className='paragraph-responsive  text-xl px-4 md:px-20 lg:px-0 lg:w-2/3 text-center'>
                     After spending hours upon hours perfecting our teaching methods and with multiple national-qualifying tutors, 
                     AMC Academy is the only <span className="main-gradient font-semibold">serious choice</span> for those trying to 
