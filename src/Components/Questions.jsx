@@ -14,7 +14,7 @@ const Cta = () => {
 
                 <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" open>
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                    <h2 className="text-xl">Some FAQ Question will be here</h2>
+                    <h2 className="text-xl">What makes AMC Academy stand out from other math tutoring services?</h2>
                     <span className="relative size-5 shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -47,14 +47,15 @@ const Cta = () => {
                     </span>
                     </summary>
                     <p className="mt-4 leading-relaxed text-gray-700 paragraph-responsive">
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
+                        We stand out due to our focus on competitive mathematics, personalized tutoring by 
+                        national-level qualifiers, and a structured curriculum designed to enhance students' 
+                        problem-solving abilities!
                     </p>
                 </details>
 
                 <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" closed>
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                    <h2 className="text-xl">Some FAQ Question will be here</h2>
+                    <h2 className="text-xl">How does we help students prepare for competitive math exams like the AIME and USAMO?</h2>
                     <span className="relative size-5 shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -87,14 +88,15 @@ const Cta = () => {
                     </span>
                     </summary>
                     <p className="mt-4 leading-relaxed text-gray-700 paragraph-responsive">
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
+                        We offer personalized mentorship, comprehensive problem-solving strategies, 
+                        and access to specialized resources tailored to each student's level, ensuring they are 
+                        well-equipped to excel in competitive math competitions.
                     </p>
                 </details>
 
                 <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" closed>
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                    <h2 className="text-xl">Some FAQ Question will be here</h2>
+                    <h2 className="text-xl">Are the tutors at AMC Academy qualified to teach advanced math concepts?</h2>
                     <span className="relative size-5 shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -127,14 +129,14 @@ const Cta = () => {
                     </span>
                     </summary>
                     <p className="mt-4 leading-relaxed text-gray-700 paragraph-responsive">
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
+                        Yes, our tutors not only possess deep knowledge of their subjects but have also excelled nationally and 
+                        internationally in math competitions, ensuring students receive guidance from experienced and accomplished mentors.
                     </p>
                 </details>
 
                 <details className="group rounded-lg bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden" closed>
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                    <h2 className="text-xl">Some FAQ Question will be here</h2>
+                    <h2 className="text-xl">Does AMC Academy offer a free trial session for new students?</h2>
                     <span className="relative size-5 shrink-0">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -167,8 +169,8 @@ const Cta = () => {
                     </span>
                     </summary>
                     <p className="mt-4 leading-relaxed text-gray-700 paragraph-responsive">
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
-                    And then inside of here will be some answer! What is the answer? I don't know yet. This is just some random filler text for the purpose of just being here.
+                        Yes, absolutely! We provide a complimentary Evaluation Session to all new members,
+                     allowing them to experience our high-quality math tutoring firsthand before making any commitments.
                     </p>
                 </details>
 

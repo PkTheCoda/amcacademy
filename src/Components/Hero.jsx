@@ -42,13 +42,12 @@ const Hero = () => {
               </div>
           </div>
           <div className="half-responsive bg-cover bg-center justify-center flex px-4 lg:px-0"
-            style={{ backgroundImage: `url(${iconpic})` }}
           >
               {/* <img src={herostat} alt="" className='z-50 w-5/6' /> */}
               <div class="relative flex items-center">
                 {/* <div class="absolute inset-0 h-1/2 bg-gray-50"></div> */}
                 <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
-                    <div class="max-w-5xl mx-auto">
+                    <div class="max-w-5xl mx-auto flex flex-col gap-y-2">
                         <dl class="rounded-lg grid pb-4 md:pb-0 min-[400px]:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 gap-4">
                             <div class="bg-white rounded-md shadow-md flex flex-col p-6 px-2 lg:px-10 text-center border-b border-gray-100 sm:border-0 sm:border-r">
                                 <dt class="order-2 mt-2 text-lg font-medium leading-6 text-gray-500" id="item-1">
@@ -84,6 +83,7 @@ const Hero = () => {
                                 </dd>
                             </div>
                         </dl>
+                        <p className="text-center text-sm"># of Students we've sent to national-level Math Competitions</p>
                     </div>
                 </div>
             </div>
